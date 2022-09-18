@@ -1,0 +1,169 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid{
+  padding: 50px;
+}
+
+.navbar-brand{
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.rotated {
+  transform: rotate(20deg);
+  width: 35%;
+  position: relative;
+  left: 190px;
+}
+
+.btn{
+  position: relative;
+  z-index: 1;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 5px;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+.tit{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.tle{
+  color: #BfBfBf;
+}
+
+.bomma{
+  color: #ff4c68;
+}
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.doggy{
+  width:20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.credit{
+  width:15%;
+  margin: 30px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.card{
+  margin: 10px;
+}
+
+.plan{
+  padding: 20px;
+}
+
+@media (max-width: 992px) {
+  .rotated{
+    position: static;
+    transform: rotate(0);
+    width: 35%;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .img{
+    padding-top: 30px;
+  }
+
+  h1{
+    font-size: 45px;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 80px;
+}
+.las{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+}
+
+.down{
+  margin:10px;
+}
+
+#footer{
+  position: static;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  height: 110px;
+}
+
+.social{
+  margin-left: 15px;
+}
+
+.social:hover{
+  color: #ff4c68;
+}
