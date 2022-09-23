@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>VK Agency</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/361e82bd83.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg bg-white px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 abb" href="#"><span class="text-primary fs-1">VK</span> Agency</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#slides">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#Services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="">Graphic Design</a></li>
+              <li><a class="dropdown-item " href="">Web Development</a></li>
+              <li><a class="dropdown-item " href="">App Development</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="slides">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="images/banner1.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/banner2.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/banner3.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container-fluid my-5">
+      <div class="container text-center abb">
+        <h1>About <span class="text-primary">us</span></h1>
+        <hr class="m-auto w-25">
+      </div>
+      <div class="container text-center">
+        <div class="row my-5">
+          <div class="col-md-6 col-sm-12">
+            <p class="fs-4 ">What do you <span class="text-primary">want to know?</span></p>
+            <p class="text-start p-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <button type="button" class="btn btn-outline-dark m-3">Read more</button>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Projects
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Experience
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual
+                    content.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Hobbies
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of
+                    content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 m-auto text-end">
+            <img src="images/s4.jpg" alt="image" class="p-4 dp">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Services py-5 bg-light">
+    <div class="container-fluid my-5">
+      <div class="container text-center abb">
+        <h1>Our <span class="text-primary">Services</span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+
+      <div class="container-fluid">
+        <div class="row px-5 my-5">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-solid fa-user mb-3"></i>
+                <h5 class="card-title">Graphic Design</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Book now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body bg-primary text-white">
+                <i class="fa-solid fa-code mb-3"></i>
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-light">Book now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-brands fa-android mb-3"></i>
+                <h5 class="card-title">App Development</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Book now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="my-5 text-center">
+    <div class="container text-center abb">
+      <h1>Our <span class="text-primary">Team</span></h1>
+      <hr class="w-25 m-auto">
+      <div class="row my-5 text-center w-75 m-auto">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/team1.jpg" alt="pd" class="w-50 dp img-fluid border border-primary">
+              <h5 class="card-title">Jake.s</h5>
+              <p class="card-text">Front-End Developer</p>
+              <button type="button" class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/team2.jpg" alt="pd" class="w-50 dp img-fluid border border-primary">
+              <h5 class="card-title">Maya</h5>
+              <p class="card-text">Graphic Designer</p>
+              <button type="button" class="btn btn-outline-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/team3.jpg" alt="pd" class="w-50 dp img-fluid border border-primary">
+              <h5 class="card-title">Matt Jr.</h5>
+              <p class="card-text">App developer</p>
+              <button type="button" class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contact" class="py-5">
+    <div class="container pb-5">
+      <div class="container text-center abb">
+        <h1>contact <span class="text-primary">Us</span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+
+      <div class="mb-3 w-75 m-auto">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3 w-75 m-auto">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-auto text-center">
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" >
+    <div>
+      <i class="fa-brands fa-twitter social"></i>
+      <i class="fa-brands fa-facebook-f social"></i>
+      <i class="fa-brands fa-instagram social"></i>
+      <i class="fa-solid fa-envelope social"></i>
+    </div>
+    <div>
+      <p>© Copyright Vamshi Rangisetti</p>
+    </div>
+
+  </footer>
+</body>
+
+</html>

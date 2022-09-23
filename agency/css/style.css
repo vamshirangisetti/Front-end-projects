@@ -1,0 +1,38 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.c-item{
+  height: 650px;
+}
+.c-img{
+  height: 100%;
+  object-fit:cover;
+}
+
+.abb{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.dp{
+  border-radius: 100%;
+}
+
+.card{
+  margin-bottom: 20px;
+}
+
+#footer{
+  position: static;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  height: 110px;
+}
+.social{
+  margin-left: 15px;
+}
+
+.social:hover{
+  color: blue;
+}
